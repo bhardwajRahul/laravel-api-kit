@@ -2,11 +2,27 @@
 
 All notable changes to this project will be documented in this file.
 
-## [2.1.0](https://github.com/Grazulex/laravel-api-kit/releases/tag/v2.1.0) (2026-01-20)
+## [2.2.0](https://github.com/Grazulex/laravel-api-kit/releases/tag/v2.2.0) (2026-01-29)
 
 ### Features
 
-- integrate PHPStan, Rector and Pint code quality tools (#13) ([f417ec2](https://github.com/Grazulex/laravel-api-kit/commit/f417ec23c2eada4eaddf3ec9e4cff7ccc71a3572))
+- add email verification endpoints with signed URLs (#16)
+- add password reset flow with secure tokens (#16)
+- add 3 reusable API middleware: ForceJsonResponse, LogApiRequests, EnsureEmailVerified (#16)
+
+### Documentation
+
+- add documentation for email verification, password reset and middleware (#17)
+
+## [2.1.0](https://github.com/Grazulex/laravel-api-kit/releases/tag/v2.1.0) (2026-01-29)
+
+### Features
+
+- integrate PHPStan, Rector and Pint code quality tools (#13)
+
+### Chores
+
+- **release:** 2.1.0 (#14)
 ## [2.0.2](https://github.com/Grazulex/laravel-api-kit/releases/tag/v2.0.2) (2026-01-08)
 
 ### Bug Fixes
